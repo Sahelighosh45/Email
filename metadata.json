@@ -1,0 +1,5 @@
+{
+  "name": "ReachInbox - Email Scheduler",
+  "description": "Full-stack email scheduling platform supporting single & bulk scheduling, rate limiting, configurable delays, and persistence.",
+  "requestFramePermissions": []
+}

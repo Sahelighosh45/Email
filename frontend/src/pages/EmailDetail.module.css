@@ -1,0 +1,105 @@
+.page {
+  max-width: 960px;
+  margin: 32px auto;
+  padding: 0 24px;
+}
+
+.loading,
+.error {
+  padding: 40px;
+  text-align: center;
+}
+
+/* TOP BAR */
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.backBtn {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.title {
+  flex: 1;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.status {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sent {
+  background: #e6f7f0;
+  color: #0f766e;
+}
+
+.scheduled {
+  background: #eef2ff;
+  color: #4338ca;
+}
+
+.failed {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* META */
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #22c55e;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.metaText {
+  flex: 1;
+}
+
+.from {
+  font-weight: 600;
+}
+
+.to {
+  font-size: 13px;
+  color: #666;
+}
+
+.time {
+  font-size: 13px;
+  color: #888;
+}
+
+/* BODY */
+.body {
+  margin-top: 32px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #222;
+}
+
+.body p {
+  margin-bottom: 14px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "reachinbox-email-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix frontend run build && tsx backend/src/server.ts",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "NODE_ENV=production node backend/dist/server.js",
+    "lint": "npm --prefix frontend run lint"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

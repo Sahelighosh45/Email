@@ -1,0 +1,74 @@
+/* // src/components/Topbar/Topbar.module.css */
+.topbar {
+  height: 72px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #E5E7EB;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  z-index: 10;
+}
+
+.pageTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.searchBar {
+  width: 400px;
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 16px 10px 40px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #374151;
+  background-color: #F9FAFB;
+  transition: all 0.2s;
+}
+
+.searchInput:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: #4F46E5;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6B7280;
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logoutButton {
+  padding: 8px 16px;
+  background-color: #F3F4F6;
+  color: #374151;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.logoutButton:hover {
+  background-color: #E5E7EB;
+}
